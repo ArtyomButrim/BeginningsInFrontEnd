@@ -1,0 +1,116 @@
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav a.active {
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
+
+.sign_up_style {
+    margin-left: auto;
+}
+
+.nav_bar_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text_logo_style {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main_nav_style {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video_content_style {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.video_content_style img {
+    width: 50%;
+}
+
+.video_content_text_style {
+    margin-top: 25px;
+    align-content: center;
+}
+
+.video_content_first_text_style {
+    font-size: 60px;
+    color: white;
+}
+
+.services_content_style {
+    display: flex;
+    background-color: rgb(6, 184, 216);
+    justify-content: space-around;
+    height: 700px;
+}
+
+.services_main_text_content_style {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.services_content_style img {
+    width: 50%;
+}
+
+.feature_boxes_style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    margin: 20px;
+}
+
+.feature_box_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature_box_text_style {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dop_feature_content_style {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.dop_feature_content_style img {
+    width: 25%;
+}
